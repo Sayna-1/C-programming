@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp sender-prototype</title>
+    <link rel="stylesheet" href="./07_message_logs.css">
+</head>
+<body style="background-color: rgb(233, 233, 233); margin: 0%;">
+    <div style="display: inline-flex; width: 100%; border-bottom: 1px solid grey; background-color: white;">
+        <div style="margin-left: 2%;">
+            <h2>
+                Message Logs
+            </h2>
+            <p class="a1">
+               Every send with delivery status
+            </p>
+        </div>
+        <div>
+            <p class="a2">
+                Meta Cloud API · Demo
+            </p>
+        </div>
+        <p class="a3">
+            A
+        </p>
+    </div>
+
+    <div style="margin-left: 2.5%; margin-top: 2%;">
+        <form>
+            <input type="text" id="fname" name="fname" placeholder="Search name, phone, templete....."  class="i">
+    
+            <select id="cars" name="cars" class="i2">
+                <option value="All Statuses">All Statuses</option>
+                <option value="Queued">Queued</option>
+                <option value="Sent">Sent</option>
+                <option value="Delivered">Delivered</option>
+                <option value="Read">Read</option>                    
+                <option value="Failed">Failed</option>
+            </select>    
+
+        </form>
+    </div>
+
+    <div style="margin-top: 2%; width: 97%; padding-left: 40px; margin-left: 0%;">
+       <div style="display: inline-flex; margin-left: 0%; background-color: white; width: 22.5%; padding: 6px; border-radius: 10px;">
+        <p style="font-size: 30px; line-height: 30px; margin-left: 3%;">
+            <b>0</b><br>
+            <span style="color: grey; font-size: 14px;">Total </span>
+        </p>
+       </div>
+       <div style="display: inline-flex; margin-left: 1%; background-color: white; width: 22.5%; padding: 8px; border-radius: 10px;">
+        <p style="font-size: 30px; line-height: 30px; margin-left: 3%;">
+            <b>0</b><br>
+            <span style="color: grey; font-size: 14px;">Delivered</span>
+        </p>
+       </div>
+       <div style="display: inline-flex; margin-left: 1%; background-color: white; width: 22.5%; padding: 8px; border-radius: 10px;">
+        <p style="font-size: 30px; line-height: 30px; margin-left: 3%;">
+            <b>0</b><br>
+            <span style="color: grey; font-size: 14px;">Read</span>
+        </p>
+       </div>
+       <div style="display: inline-flex; margin-left: 1%; background-color: white; width: 22.5%; padding: 8px; border-radius: 10px;">
+        <p style="font-size: 30px; line-height: 30px; margin-left: 3%;">
+            <b>0</b><br>
+            <span style="color: grey; font-size: 14px;">Failed</span>
+        </p>
+       </div>
+    </div> 
+
+    <div>
+        <table style="width: 95.2%; border-collapse: collapse; background-color: white; margin-top: 2%; margin-left: 2.5%; margin-right: 30px; border-radius: 10px;">
+            <tr>
+                <td class="c1"><b>RECIPIENT</b></td>
+                <td class="c1"><b>TEMPLATES </b></td>
+                <td class="c1"><b>MESSAGE</b></td>
+                <td class="c1"><b>STATUS </b></td>
+                <td class="c1"><b>META MESSAGE ID</b></td>
+            </tr>
+            <tr>
+                <td colspan="5" style="text-align: center; height: 25vh;"><p style="color: gray;"><span style="font-size: 30px;">≣ </span>
+                    <br><span style="font-size: 15px;">No logs yet. Send a message to see it here.</span></p>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+</body>
+</ht

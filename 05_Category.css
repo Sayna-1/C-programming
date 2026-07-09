@@ -1,0 +1,84 @@
+.A{
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+    margin-top: -0.5%;
+    /* margin-left: -0.5%; */
+    /* margin-right: -8%; */
+}
+.A1{
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.a1{
+    font-size: 25px;
+    line-height: 0;
+}
+.a2{
+    font-size: 15px;
+}
+.A2{
+    margin-top: 1.5%;
+}
+.a3{
+    background-color: rgb(135,207,235,0.174);
+    border: 0px solid  rgb(135,207,235,0.174);
+    color: grey;
+    font-size: 13.5px;
+    height: 15px;
+    width: 140px;
+    text-align: center;
+    border-radius: 20px;
+    padding: 3px;
+    margin-left: 712%;
+    margin-top: 5.5%;
+}
+.a4{
+    margin-top: 1.5%;
+    margin-left: 69.3%;
+    border-radius: 50px;
+    padding: 10px;
+    border: 1px solid  rgb(9, 84, 76);
+    height: 15px;
+    width: 15px;
+    text-align: center;
+    background-color:  rgb(9, 84, 76);
+    color: white;
+    font-size: 15px;
+}
+.a{
+    border: 0.1px solid rgba(170, 170, 170, 0.285);
+    margin-top: 0%;
+}
+
+.b1{
+    color: grey;
+    font-size: 15px;
+    padding: 10px;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.304);
+}
+.b2{
+    /* font-size: 15px; */
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgba(139, 139, 139, 0.304);
+}
+.b3{
+    font-size: 13px;
+    border: 1px solid rgba(136, 136, 136, 0.201);
+    border-radius: 10px;
+    background-color: rgba(136, 136, 136, 0.201);
+    width: 50px;
+    padding: 2px;
+    text-align: center;
+}
+.b{
+    background-color: rgb(9, 84, 76);
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 1%;
+    margin-left: 90.5%;
+}
